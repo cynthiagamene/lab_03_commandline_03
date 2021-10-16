@@ -35,7 +35,23 @@ Follow the instructions line-by-line.
 $ touch foo.txt
 $ ls
 Copy and paste the output below.
-----------
+----------Library
+Movies
+Music
+Pictures
+Public
+animals
+archivestuff
+cynthiagamene
+foo.txt
+hello.txt
+mtec-1003-lab-03
+mtec-1003-lab-03.tar.gz
+mtec1002-lab-03
+my-stuff
+my_files
+old image.png
+stuff
 
 
 
