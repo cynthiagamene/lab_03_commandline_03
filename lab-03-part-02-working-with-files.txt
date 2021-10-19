@@ -35,7 +35,16 @@ Follow the instructions line-by-line.
 $ touch foo.txt
 $ ls
 Copy and paste the output below.
-----------
+----------foo.txt
+hello.txt
+mtec-1003-lab-03
+mtec-1003-lab-03.tar.gz
+mtec1002-lab-03
+my-stuff
+my_filles
+old image.png
+stuff
+stuff.tar.gz
 
 
 
@@ -43,7 +52,17 @@ Copy and paste the output below.
 7. Create another new file using touch.
 
 $ touch bar.txt
-----------
+----------bar.txt
+foo.txt
+hello.txt
+mtec-1003-lab-03
+mtec-1003-lab-03.tar.gz
+mtec1002-lab-03
+my-stuff
+my_filles
+old image.png
+stuff
+stuff.tar.gz
 
 
 
@@ -51,30 +70,87 @@ $ touch bar.txt
 8. List the files in this directory using the flag that gives the most details.
 
 Copy and paste the output below.
-----------
+----------bar.txt
+foo.txt
+hello.txt
+mtec-1003-lab-03
+mtec-1003-lab-03.tar.gz
+mtec1002-lab-03
+my-stuff
+my_filles
+old image.png
+stuff
+stuff.tar.gz
 
 
 
 ==========
-9. Create a copy of bar.txt called baz.txt and then list the files again.
+9. Create a copy of bar.txt calledc baz.txt and then list the files again.
 
 
 Write the command that you used to copy the file.  Additionally, copy and paste the output of your file listing below.
-----------
-
+----------cp -r bar.txt baz.txt
+bar.txt
+foo.txt
+hello.txt
+mtec-1003-lab-03
+mtec-1003-lab-03.tar.gz
+mtec1002-lab-03
+my-stuff
+my_filles
+old image.png
+stuff
+stuff.tar.gz
 
 
 ==========
 10. Delete the file called bar.txt and then list the files again.
+baz.txt
+cynthiagamene
+foo.txt
+hello.txt
+mtec-1003-lab-03
+mtec-1003-lab-03.tar.gz
+mtec1002-lab-03
+my-stuff
+my_filles
+old image.png
+stuff
+stuff.tar.gz
 
 Write the command that you used to remove the file.  Copy and paste the output of your file listing below.
-----------
+----------rm bar.txt
+baz.txt
+cynthiagamene
+foo.txt
+hello.txt
+mtec-1003-lab-03
+mtec-1003-lab-03.tar.gz
+mtec1002-lab-03
+my-stuff
+my_filles
+old image.png
+stuff
+stuff.tar.gz
+
 ==========
 11. Move the file called foo.txt to qux.txt and then list the files again.
 
 
 Write the command that you used to move the file.  Copy and paste the output of your file listing below.
-----------
+----------mv foo.txt qux.txt
+baz.txt
+cynthiagamene
+hello.txt
+mtec-1003-lab-03
+mtec-1003-lab-03.tar.gz
+mtec1002-lab-03
+my-stuff
+my_filles
+old image.png
+qux.txt
+stuff
+stuff.tar.gz
 
 
 
@@ -89,7 +165,8 @@ Write the command that you used to move the file.  Copy and paste the output of 
 13. Try removing the directory called my_files using rmdir.
 
 Write out the command that you used and what happened.
-----------
+---------- rmdir my_files
+rmdir: my_files: No such file or directory
 
 
 
@@ -97,7 +174,8 @@ Write out the command that you used and what happened.
 14. Try removing the directory called my_files using rm.
 
 Write out the command that you used and what happened.
-----------
+----------rm my_files
+rm: my_files: No such file or directory
 
 
 
@@ -119,7 +197,7 @@ books/other/pg1232.txt
 Use the command called cat on the file to show its contents. 
 
 Describe what happened below.
-----------
+----------cat: books/other/pg1232.txt: No such file or directory
 
 
 
