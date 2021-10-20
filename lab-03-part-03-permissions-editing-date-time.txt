@@ -57,7 +57,7 @@ What commands did you use to do this?
 5. What are the permissions on your copy_to_backup.sh.
 
 What command did you use to find the permissions?
-----------
+---------- ls -l copy_to_backup.sh.
 
 
 
@@ -65,7 +65,7 @@ What command did you use to find the permissions?
 6. Change the permissions so that this file is executable by the user.  Verify the new permissions.
 
 What commands did you use to do this?  What was the output?
-----------
+---------- chmod u+x copy_to_backup.sh.
 
 
 
@@ -75,7 +75,7 @@ What commands did you use to do this?  What was the output?
 $ ./copy_to_backup.sh
 
 What command did you use to try to execute the file?  What happens?
-----------
+---------- chmod u+x 
 
 
 
@@ -83,7 +83,7 @@ What command did you use to try to execute the file?  What happens?
 8. Open the file with nano
 
 What command did you use to do this?
-----------
+---------- nano
 
 
 
